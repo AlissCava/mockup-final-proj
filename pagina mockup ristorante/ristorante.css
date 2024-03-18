@@ -1,0 +1,208 @@
+/*colore principale: bianco
+colore secondario: rgb(255, 204, 108);
+colore per i dettagli, esempio bottone: #198754
+scritte nere*/
+
+
+/* header */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 204, 108);
+}
+
+.navbarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nomeRistorante{
+    max-width: 25%;
+}
+
+.nomeRistorante h1{
+    font-size: 2rem;
+}
+
+.navbarContainer h3{
+    font-size: 2rem;
+}
+
+.searchBarContainer form{
+    width: 700px;
+}
+
+/* inizio jumboo */
+.jumboo{
+    background-color: rgb(255, 204, 108);
+    max-height: 300px;
+    width: 100%;
+}
+
+.containerJumboo img{
+    max-height: 400px;
+    width: 100%;
+}
+
+/* inizio barra laterale per i tipi di piatti */
+.laterlaNavBar{
+    overflow: scroll; /* Mostra la scrollbar solo se il contenuto eccede l'altezza */
+    position: fixed;
+    top: 0;
+    width: 15%;
+
+    height: 300px;
+    margin-top: 400px;
+    padding-top: 20px;
+
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #198754;
+}
+
+.ilTuoOrdine{
+    overflow: scroll; /* Mostra la scrollbar solo se il contenuto eccede l'altezza */
+    position: fixed;
+
+    top: 0;
+    right: 0;
+
+    width: 30%;
+    height: 300px;
+
+    margin-top: 400px;
+    padding-top: 30px;
+
+    text-align: center;
+    background-color: white;
+    border: 1px solid #198754;
+}
+
+
+/* inizio sezione del menu */
+.containerMenù{
+    margin-top: 100px;
+    overflow: scroll;
+    width: 55%;
+    height: 900px;
+    margin-left: 15%;
+}
+
+
+.titoloMenù{
+    padding-left: 3%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #198754;
+}
+
+.titolo h1{
+    margin-left: 15%;
+}
+
+.piatto{
+    overflow: scroll; /* Mostra la scrollbar solo se il contenuto eccede l'altezza */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #198754;
+}
+
+.immaginePiatto{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+}
+
+.nomePiattio{
+    width: 30%;
+    margin-left: -300px;
+}
+
+.prezzoPiatto{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.fa-plus{
+    padding: 10px;
+    color: #198754;
+    font-size: 2rem;
+}
+
+.fa-plus:hover{
+    padding: 10px;
+    background-color: #198754;
+    color: white;
+}
+
+
+
+
+/* inizio footer */
+.sectionFooter{
+    background-color: #198754;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerSocial{
+    width: 40%;
+}
+
+.footerSocial h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.footerSocial span {
+   text-align: center;
+}
+
+.footerSocial span a{
+    margin-left: 4%;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footerRegistration{
+    width: 40%;
+}
+
+.footerRegistration h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  
+}
+
+.footerRegistration h3{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footerRegistration h3 a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
