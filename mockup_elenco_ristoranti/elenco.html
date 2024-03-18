@@ -23,23 +23,20 @@
 <body>
     <!-- Intestazione della pagina -->
     <header>
-        <!-- Nome del ristorante -->
-        <nav class="navbar">
-            <div class="navbarContainer">
-
-                <h1>DeliveBoo</h1>
-
-                <!-- Barra di ricerca per i piatti -->
-                <div class="searchBarContainer">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="cerca il tuo piatto preferito" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+        <nav>
+            <div id="navContainer"> 
+                <div class="logoTesto">
+                  <img src="img/logo.png" alt="">
+                  <h1 id="nameBrand"> DeliveBoo </h1>
                 </div>
-                
+            </div>
+            <div id="containerSearchBar">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
             </div>
         </nav>
-       
     </header>
 
     <main>
