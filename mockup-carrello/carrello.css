@@ -1,0 +1,110 @@
+/*colore principale: bianco
+colore secondario: rgb(255, 204, 108);
+colore per i dettagli, esempio bottone: #198754
+scritte nere*/
+
+/* header */
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 204, 108);
+}
+
+.navbarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarContainer h3{
+    font-size: 2rem;
+}
+
+.searchBarContainer form{
+    width: 700px;
+}
+
+
+/* sezione ordine */
+.carrello{
+    width: 50%;
+    min-height: 300px;
+
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    text-align: center;
+    background-color: white;
+    border: 3px solid #198754;
+}
+
+.carrello div{
+    display: flex;
+    justify-content: center;
+}
+
+/* inizio footer */
+.sectionFooter{
+    background-color: #198754;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerSocial{
+    width: 40%;
+}
+
+.footerSocial h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+.footerSocial span {
+   text-align: center;
+}
+
+.footerSocial span a{
+    margin-left: 4%;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footerRegistration{
+    width: 40%;
+}
+
+.footerRegistration h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  
+}
+
+.footerRegistration h3{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footerRegistration h3 a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
